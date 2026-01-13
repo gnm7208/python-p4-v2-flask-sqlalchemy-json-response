@@ -18,5 +18,6 @@
 
 ## Progress
 - [x] Commit 1: Initial commit - setup structure
-- [ ] Commit 2: Update index route to return JSON
+- [x] Commit 2: Update index route to return JSON
+- [ ] Commit 3: Update demo_json to use dictionary
 
