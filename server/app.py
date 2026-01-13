@@ -18,6 +18,7 @@ db.init_app(app)
 
 @app.route('/')
 def index():
+    # Return JSON response with welcome message
     return make_response(
         '<h1>Welcome to the pet directory!</h1>',
         200
