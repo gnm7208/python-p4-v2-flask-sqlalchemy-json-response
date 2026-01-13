@@ -18,11 +18,9 @@ db.init_app(app)
 
 @app.route('/')
 def index():
-    # Return JSON response with welcome message
-    return make_response(
-        '<h1>Welcome to the pet directory!</h1>',
-        200
-    )
+    """Return a JSON response with a welcome message."""
+    body = {'message': 'Welcome to the pet directory!'}
+    return make_response(body, 200)
 
 
 @app.route('/demo_json')

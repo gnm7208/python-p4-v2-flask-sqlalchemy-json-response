@@ -17,5 +17,6 @@
 - [ ] Commit 13: Final review and documentation
 
 ## Progress
-Currently at: Initial commit
+- [x] Commit 1: Initial commit - setup structure
+- [ ] Commit 2: Update index route to return JSON
 
